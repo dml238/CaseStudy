@@ -91,15 +91,6 @@ def main():
 		shutil.move(outFilePath,archivePath)
 		sys.exit()
 
-	docIDs = []
-
-	#create a "look up table of files last processed"
-
-	#check files in directory and compare to files in lookup table"
-
-	#create the files list of files that need to be uploaded 
-
-
 	for f in files:
 		#documents object settings
 		upDocPath = directory + '/' + f
